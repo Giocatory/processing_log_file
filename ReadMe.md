@@ -4,14 +4,14 @@
 
 ## Оглавление
 
-1.  [Функциональность](https://www.google.com/search?q=%23%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C)
-2.  [Требования](https://www.google.com/search?q=%23%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
-3.  [Установка](https://www.google.com/search?q=%23%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)
-4.  [Использование](https://www.google.com/search?q=%23%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-5.  [Примеры запуска](https://www.google.com/search?q=%23%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0)
-6.  [Архитектура](https://www.google.com/search?q=%23%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
-7.  [Тестирование](https://www.google.com/search?q=%23%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-8.  [FAQ](https://www.google.com/search?q=%23faq)
+1.  Функциональность
+2.  Требования
+3.  Установка
+4.  Использование
+5.  Примеры запуска
+6.  Архитектура
+7.  Тестирование
+8.  FAQ
 
 -----
 
@@ -182,4 +182,5 @@ pytest
     Тесты покрывают ключевую логику и обработку ошибок. Для проверки покрытия можно использовать `pytest-cov`.
 
   * **Как добавить новый отчет?**
+
     Создайте новый класс в `reports.py`, унаследуйте его от `BaseReport` и реализуйте метод `get_data()`. Затем добавьте этот класс в словарь `reports` в `main.py`.
